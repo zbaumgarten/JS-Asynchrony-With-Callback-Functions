@@ -1,5 +1,5 @@
 function newNonPlayableCharacter(x, y) {
-    let element = newImage('assets/green-character/static.gif')
+    let element = newImage('assets/red-character/static.gif')
 
     let direction = null;
 
@@ -24,27 +24,27 @@ function newNonPlayableCharacter(x, y) {
 
     function walkEast() {
         direction = 'east'
-        element.src = `./assets/green-character/east.gif`
+        element.src = `./assets/red-character/east.gif`
     }
 
     function walkNorth() {
         direction = 'north'
-        element.src = `./assets/green-character/north.gif`
+        element.src = `./assets/red-character/north.gif`
     }
 
     function walkWest() {
         direction = 'west'
-        element.src = `./assets/green-character/west.gif`
+        element.src = `./assets/red-character/west.gif`
     }
 
     function walkSouth() {
         direction = 'south'
-        element.src = `./assets/green-character/south.gif`
+        element.src = `./assets/red-character/south.gif`
     }
 
     function stop() {
         direction = null
-        element.src = `./assets/green-character/static.gif`
+        element.src = `./assets/red-character/static.gif`
     }
 
     return {
