@@ -1,6 +1,7 @@
 function newNonPlayableCharacter(x, y) {
     let element = newImage('assets/red-character/static.gif')
-
+    element.style.zIndex = 1;
+    
     let direction = null;
 
     function moveCharacter() {
