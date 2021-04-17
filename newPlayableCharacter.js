@@ -21,5 +21,7 @@ function newPlayableCharacter(x, y) {
 
     move(element).withArrowKeys(x, y, handleDirectionChange)
 
-    return element
+    return {
+        element: element
+    }
 }
