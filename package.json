@@ -1,10 +1,10 @@
 {
-  "name": "5.4.6-activity",
+  "name": "5.4.2-activity",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=5000",
+    "start": "live-server --port=9000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
